@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background: rgb(81, 127, 205);
+            background: linear-gradient(90deg, rgba(81, 127, 205, 1) 14%, rgba(81, 127, 205, 1) 45%, rgba(134, 72, 174, 1) 96%);
+        }
+
+        div#container {
+            width: 450px;
+            margin: auto;
+        }
+
+        .card {
+            text-align: center;
+            background-color: rgb(241, 241, 241);
+            padding: 40px;
+            margin-top: 80px;
+            border-radius: 15px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-bottom: 3px solid #ccc;
+            box-sizing: border-box;
+            margin: 20px 0;
+            resize: vertical;
+            font-size: 18px;
+            background-color: rgb(241, 241, 241);;
+        }
+
+        input:focus {
+            border-bottom: 3px solid #ccc;
+            outline: none;
+        }
+
+        input::placeholder {
+            color: #ccc;
+            ;
+        }
+
+        h1 {
+            padding: 35px 0px;
+            font-size: 40px;
+        }
+
+        button {
+            margin-top: 20px;
+            border: none;
+            color: white;
+            width: 100%;
+            font-size: 20px;
+            padding: 20px;
+            background: rgb(81, 127, 205);
+            background: linear-gradient(90deg, rgba(81, 127, 205, 1) 14%, rgba(81, 127, 205, 1) 45%, rgba(134, 72, 174, 1) 96%);
+        }
+
+        .card>div{
+            margin: 50px 0;
+        }
+        p>span{
+            color: rgb(52, 112, 168);
+            font-weight: bold;
+        }
+        p>span:hover{
+            cursor: pointer;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="card">
+            <h1>Login</h1>
+            <input type="email" id="email" placeholder="Email" name="email">
+            <input type="password" id="pass" placeholder="Password" name="pass">
+            <button>Login</button>
+            <div>
+                <p>Forgot <span>Password</span>?</p>
+                <p>Don't have an account? <span>Sign up</span></p>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
